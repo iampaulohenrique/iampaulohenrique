@@ -1,0 +1,133 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 50;
+  background: rgba(19, 19, 21, 0.6);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 20px rgba(0, 219, 233, 0.1);
+}
+
+.navbar__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 var(--space-margin-desktop);
+  height: 80px;
+}
+
+@media (max-width: 768px) {
+  .navbar__inner {
+    padding: 0 var(--space-margin-mobile);
+  }
+}
+
+.navbar__logo {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 24px;
+  letter-spacing: -0.03em;
+  color: var(--color-primary-fixed-dim);
+}
+
+.navbar__links {
+  display: none;
+  gap: var(--space-gutter);
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .navbar__links {
+    display: flex;
+  }
+}
+
+.navbar__link {
+  font-family: var(--font-mono);
+  font-size: var(--fs-label-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-on-surface-variant);
+  padding-bottom: 4px;
+  transition: color 0.3s ease;
+}
+
+.navbar__link:hover {
+  color: var(--color-on-surface);
+}
+
+.navbar__link--active {
+  color: var(--color-primary-fixed-dim);
+  border-bottom: 2px solid var(--color-primary-fixed-dim);
+  font-weight: 700;
+}
+
+.navbar__cta {
+  background-color: var(--color-primary-container);
+  color: var(--color-on-primary-fixed);
+  padding: 8px 24px;
+  font-family: var(--font-mono);
+  font-size: var(--fs-label-mono);
+  text-transform: uppercase;
+  border-radius: var(--radius-lg);
+  transition: transform 0.3s ease;
+}
+
+.navbar__cta:hover {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
+
+
+/* Mantenha TODO o seu CSS original intacto e adicione isso no final: */
+
+/* Botão Hambúrguer (invisível no desktop) */
+.navbar__toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--color-on-surface-variant);
+  padding: 8px;
+}
+
+.navbar__toggle span {
+  font-size: 28px;
+}
+
+/* Ajustes cirúrgicos para Mobile (Até 768px) */
+@media (max-width: 768px) {
+  /* Força o botão hambúrguer a aparecer ao lado do seu CTA */
+  .navbar__toggle {
+    display: block;
+  }
+
+  /* Garante que o container interno não esmague os elementos */
+  .navbar__inner {
+    gap: 12px;
+  }
+
+  /* Transforma a barra de links em um dropdown discreto abaixo da navbar */
+  .navbar__links {
+    display: none; /* Escondido por padrão */
+    flex-direction: column;
+    position: absolute;
+    top: 80px; /* Alinhado logo abaixo da altura da sua navbar */
+    left: 0;
+    width: 100%;
+    background: rgba(19, 19, 21, 0.95);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    gap: 20px;
+    align-items: center;
+  }
+
+  /* Classe que o React ativa ao clicar: mostra os links sem quebrar o topo */
+  .navbar__links--open {
+    display: flex !important;
+  }
+}

@@ -1,0 +1,92 @@
+/* ==========================================================================
+   Design Tokens — extraídos do tailwind.config original
+   Paleta "cyber-minimalist": fundo obsidiana + acento neon ciano
+   ========================================================================== */
+
+:root {
+  /* Cores principais */
+  --color-background: #0a0a0c;
+  --color-on-background: #e5e1e4;
+  --color-surface: #131315;
+  --color-surface-dim: #131315;
+  --color-surface-bright: #39393b;
+  --color-surface-container-lowest: #0e0e10;
+  --color-surface-container-low: #1c1b1d;
+  --color-surface-container: #201f21;
+  --color-surface-container-high: #2a2a2c;
+  --color-surface-container-highest: #353437;
+  --color-surface-variant: #353437;
+  --color-on-surface: #e5e1e4;
+  --color-on-surface-variant: #b9cacb;
+  --color-inverse-surface: #e5e1e4;
+  --color-inverse-on-surface: #313032;
+
+  /* Primária (ciano neon) */
+  --color-primary: #dbfcff;
+  --color-on-primary: #00363a;
+  --color-primary-container: #00f0ff;
+  --color-on-primary-container: #006970;
+  --color-primary-fixed: #7df4ff;
+  --color-primary-fixed-dim: #00dbe9;
+  --color-on-primary-fixed: #002022;
+  --color-on-primary-fixed-variant: #004f54;
+  --color-inverse-primary: #006970;
+  --color-surface-tint: #00dbe9;
+
+  /* Secundária */
+  --color-secondary: #c6c5d0;
+  --color-on-secondary: #2f3038;
+  --color-secondary-container: #4a4b54;
+  --color-on-secondary-container: #bbbbc6;
+  --color-secondary-fixed: #e3e1ed;
+  --color-secondary-fixed-dim: #c6c5d0;
+  --color-on-secondary-fixed: #1a1b23;
+  --color-on-secondary-fixed-variant: #45464f;
+
+  /* Terciária (violeta) */
+  --color-tertiary: #faf3ff;
+  --color-on-tertiary: #3c0090;
+  --color-tertiary-container: #e1d2ff;
+  --color-on-tertiary-container: #7213ff;
+  --color-tertiary-fixed: #e9ddff;
+  --color-tertiary-fixed-dim: #d1bcff;
+  --color-on-tertiary-fixed: #23005b;
+  --color-on-tertiary-fixed-variant: #5700c9;
+
+  /* Erro */
+  --color-error: #ffb4ab;
+  --color-on-error: #690005;
+  --color-error-container: #93000a;
+  --color-on-error-container: #ffdad6;
+
+  /* Contornos */
+  --color-outline: #849495;
+  --color-outline-variant: #3b494b;
+
+  /* Border radius */
+  --radius-default: 0.125rem;
+  --radius-lg: 0.25rem;
+  --radius-xl: 0.5rem;
+  --radius-full: 0.75rem;
+
+  /* Espaçamento */
+  --space-unit: 8px;
+  --space-gutter: 24px;
+  --space-margin-mobile: 20px;
+  --space-margin-desktop: 64px;
+  --space-section-gap: 160px;
+  --container-max: 1280px;
+
+  /* Tipografia */
+  --font-body: "Inter", sans-serif;
+  --font-display: "Geist", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --fs-body-md: 16px;
+  --fs-body-lg: 18px;
+  --fs-label-mono: 14px;
+  --fs-headline-xl-mobile: 32px;
+  --fs-headline-xl: 40px;
+  --fs-display-lg-mobile: 48px;
+  --fs-display-lg: 72px;
+}
