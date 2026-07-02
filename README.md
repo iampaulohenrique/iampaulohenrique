@@ -1,72 +1,49 @@
-# Paulo Henrique — Portfólio (React + TypeScript)
+# ⚡ PH Digital Engineering — Portfolio 2026
 
-Conversão do portfólio original (4 páginas HTML estáticas com Tailwind via CDN) para uma
-aplicação **React 18 + TypeScript + Vite**, com roteamento client-side e CSS separado por
-componente/página.
+<div align="center">
+  <img src="./src/assets/hero-preview.png" alt="Portfolio Preview" width="100%" style="border-radius: 8px;" />
+</div>
 
-## Stack
+<p align="center">
+  <strong>Repositório oficial do meu portfólio pessoal e plataforma de engenharia digital.</strong><br />
+  Uma aplicação de alta performance construída para expor trabalhos selecionados, experimentos em tempo real e soluções web customizadas.
+</p>
 
-- **React 18** + **TypeScript**
-- **React Router v6** — navegação entre páginas sem reload
-- **Vite** — build e dev server
-- CSS puro (sem framework), organizado em arquivos por componente/página
-- Google Fonts: Inter, JetBrains Mono, Geist, Material Symbols Outlined
+<p align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+</p>
 
-## Como rodar
+---
 
-```bash
-npm install
-npm run dev       # ambiente de desenvolvimento (http://localhost:5173)
-npm run build     # build de produção (gera /dist)
-npm run preview   # serve o build de produção localmente
-```
+##  Sobre o Projeto
 
-## Estrutura do projeto
+Este repositório contém o código-fonte da minha página de serviços e portfólio profissional. O ecossistema foi projetado seguindo uma estética **Cyberpunk/Glassmorphism**, combinando uma malha estrutural de engenharia digital (*engineering grid*) com efeitos de iluminação neon (*glow*) e alta fidelidade responsiva.
 
-```
-src/
-├── components/        # Componentes compartilhados entre páginas
-│   ├── Navbar.tsx / .css
-│   ├── Footer.tsx / .css
-│   ├── Layout.tsx          # Navbar + <Outlet /> + Footer
-│   └── ProjectCard.tsx / .css
-├── pages/              # Uma página por rota
-│   ├── Home.tsx / .css        → "/"            (Início + Sobre)
-│   ├── Skills.tsx / .css      → "/habilidades" (Bento grid + Toolbelt)
-│   ├── Projects.tsx / .css    → "/trabalhos"   (Grid de projetos)
-│   └── Contact.tsx / .css     → "/contato"     (Formulário controlado)
-├── styles/
-│   ├── variables.css   # Design tokens (cores, espaçamento, tipografia)
-│   └── global.css      # Reset, classes utilitárias (.glass-card, .neon-glow etc.)
-├── types/
-│   └── index.ts         # Interfaces TypeScript (Project, Tool, ContactFormData...)
-├── App.tsx               # Definição das rotas
-└── main.tsx               # Ponto de entrada
-```
+### Destaques do Desenvolvimento:
+* **Arquitetura Escalável:** Divisão modular de componentes em React estruturados com tipagem estrita via TypeScript.
+* **Scroll Suave Nativo:** Sistema otimizado de navegação entre seções através de manipulação de DOM baseada em identificadores únicos.
+* **Performance Fluida:** Renderização ultrarrápida utilizando empacotamento via Vite e otimização de ativos locais.
 
-## O que mudou em relação ao HTML original
+---
 
-1. **Tailwind via CDN → CSS próprio**: as classes utilitárias do Tailwind (que dependiam
-   de um `tailwind.config` inline repetido em cada página) foram convertidas em CSS comum,
-   com os mesmos valores de cor/espaçamento/tipografia preservados como variáveis CSS em
-   `styles/variables.css`.
-2. **4 páginas HTML → 4 rotas React Router**: a navegação agora é feita via `<Link>` /
-   `<NavLink>`, sem reload de página. O link "Sobre" no menu aponta para `/#sobre` (seção
-   dentro da Home).
-3. **Navbar e Footer**: estavam duplicados nos 4 arquivos originais; agora são componentes
-   únicos (`Navbar.tsx`, `Footer.tsx`) compartilhados via `Layout.tsx`.
-4. **Formulário de contato**: o script vanilla JS que simulava o envio (trocando o texto do
-   botão) foi reescrito como estado React (`useState`) com tipos (`ContactFormData`,
-   `SubmitStatus`), mantendo o mesmo comportamento visual (enviando → enviado → reset).
-5. **Dados como arrays tipados**: listas repetitivas (ferramentas do toolbelt, projetos,
-   redes sociais) foram extraídas para arrays TypeScript e renderizadas via `.map()`, em
-   vez de HTML repetido manualmente.
-6. **Acessibilidade**: inputs do formulário ganharam `<label htmlFor>` associado por `id`;
-   imagens decorativas de fundo (mapa, banner) usam `role="img"` + `aria-label`.
+##  Tecnologias Utilizadas
 
-## Notas
+O projeto foi edificado utilizando as melhores práticas do mercado de desenvolvimento front-end:
 
-- O conteúdo de texto (textos de exemplo, links `#`, dados de contato fictícios) foi mantido
-  fiel ao material original — são apenas placeholders e podem ser substituídos livremente.
-- O parágrafo final da seção "Sobre mim" estava cortado no HTML de origem; foi completado de
-  forma coerente com o restante do texto.
+* **React 18** — Biblioteca para construção de interfaces modulares baseadas em componentes.
+* **TypeScript** — Tipagem estática para garantir robustez e evitar erros em tempo de execução.
+* **CSS3 Avançado** — Uso massivo de variáveis globais, flexbox/grid layout e efeitos de *backdrop-filter* (glassmorphism).
+* **Vite** — Ferramenta de build de última geração para um ambiente de desenvolvimento instantâneo.
+
+---
+
+##  Trabalhos em Destaque no Portfólio
+
+Dentro da aplicação, são exibidos projetos de engenharia real, como:
+* **Plataforma Reciclagem de Materiais:** Sistema inteligente de gerenciamento e logística reversa completa.
+* **ZombiePlague Platform:** Ecossistema completo voltado para gerenciamento e monitoramento de servidores de Counter-Strike 1.6.
+
+
