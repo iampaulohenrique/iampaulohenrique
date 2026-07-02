@@ -1,9 +1,5 @@
 #  iampaulohenrique.com.br — Portfolio 2026
 
-<div align="center">
-  <img src="./src/assets/hero-preview.png" alt="Portfolio Preview" width="100%" style="border-radius: 8px;" />
-</div>
-
 <p align="center">
   <strong>Repositório oficial do meu portfólio pessoal e plataforma de engenharia digital.</strong><br />
   Uma aplicação de alta performance construída para expor trabalhos selecionados, experimentos em tempo real e soluções web customizadas.
