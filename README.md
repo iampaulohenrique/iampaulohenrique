@@ -1,4 +1,4 @@
-# ⚡ PH Digital Engineering — Portfolio 2026
+#  iampaulohenrique.com.br — Portfolio 2026
 
 <div align="center">
   <img src="./src/assets/hero-preview.png" alt="Portfolio Preview" width="100%" style="border-radius: 8px;" />
