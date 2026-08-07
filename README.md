@@ -1,45 +1,127 @@
-#  iampaulohenrique.com.br — Portfolio 2026
+# iampaulohenrique.com.br — Portfolio 2026
 
-<p align="center">
-  <strong>Repositório oficial do meu portfólio pessoal e plataforma de engenharia digital.</strong><br />
-  Uma aplicação de alta performance construída para expor trabalhos selecionados, experimentos em tempo real e soluções web customizadas.
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
-</p>
+> **Meu portfólio profissional**, desenvolvido para apresentar meus serviços, experiências e projetos através de uma interface moderna inspirada em **Cyberpunk** e **Glassmorphism**.
 
 ---
 
 ##  Sobre o Projeto
 
-Este repositório contém o código-fonte da minha página de serviços e portfólio profissional. O ecossistema foi projetado seguindo uma estética **Cyberpunk/Glassmorphism**, combinando uma malha estrutural de engenharia digital (*engineering grid*) com efeitos de iluminação neon (*glow*) e alta fidelidade responsiva.
+Este repositório contém o código-fonte do meu portfólio profissional.
 
-### Destaques do Desenvolvimento:
-* **Arquitetura Escalável:** Divisão modular de componentes em React estruturados com tipagem estrita via TypeScript.
-* **Scroll Suave Nativo:** Sistema otimizado de navegação entre seções através de manipulação de DOM baseada em identificadores únicos.
-* **Performance Fluida:** Renderização ultrarrápida utilizando empacotamento via Vite e otimização de ativos locais.
+A aplicação foi construída com foco em **performance**, **design responsivo** e **experiência do usuário**, utilizando uma arquitetura moderna baseada em componentes reutilizáveis.
 
----
+### Principais Características
 
-##  Tecnologias Utilizadas
-
-O projeto foi edificado utilizando as melhores práticas do mercado de desenvolvimento front-end:
-
-* **React 18** — Biblioteca para construção de interfaces modulares baseadas em componentes.
-* **TypeScript** — Tipagem estática para garantir robustez e evitar erros em tempo de execução.
-* **CSS3 Avançado** — Uso massivo de variáveis globais, flexbox/grid layout e efeitos de *backdrop-filter* (glassmorphism).
-* **Vite** — Ferramenta de build de última geração para um ambiente de desenvolvimento instantâneo.
+* Arquitetura modular utilizando React + TypeScript
+*  Interface inspirada em Cyberpunk & Glassmorphism
+*  Layout totalmente responsivo
+*  Alto desempenho e carregamento rápido
+*  Componentes reutilizáveis
+*  Animações suaves
+*  Código organizado e escalável
 
 ---
 
-##  Trabalhos em Destaque no Portfólio
+#  Tecnologias Utilizadas
 
-Dentro da aplicação, são exibidos projetos de engenharia real, como:
-* **Plataforma Reciclagem de Materiais:** Sistema inteligente de gerenciamento e logística reversa completa.
-* **ZombiePlague Platform:** Ecossistema completo voltado para gerenciamento e monitoramento de servidores de Counter-Strike 1.6.
+Os projetos presentes no portfólio utilizam diferentes tecnologias, escolhidas conforme a necessidade de cada solução.
 
+<p align="center">
 
+<img src="https://skillicons.dev/icons?i=react,ts,java,nodejs,php,github" />
+
+</p>
+
+### Front-end
+
+* React
+* TypeScript
+* HTML5
+* CSS3
+
+### Back-end
+
+* Java
+* PHP
+* Node.js
+
+### Versionamento
+
+* Git & GitHub
+
+---
+
+#  Trabalhos em Destaque
+
+Meu portfólio reúne projetos pessoais e também sistemas desenvolvidos como **Freelancer**, utilizando diferentes stacks de desenvolvimento conforme a necessidade de cada cliente.
+
+## ♻️ Plataforma de Reciclagem de Materiais
+
+Sistema inteligente para gerenciamento de materiais recicláveis, controle de operações e logística reversa, oferecendo uma solução completa para gerenciamento de processos.
+
+### Tecnologias
+
+* React
+* TypeScript
+* PHP
+* PostgreSQL
+
+---
+
+## 🎮 ZombiePlague Platform
+
+Plataforma completa para gerenciamento e monitoramento de servidores de **Counter-Strike 1.6**, integrando painel administrativo, autenticação, estatísticas e comunicação entre servidor e aplicação web.
+
+### Tecnologias
+
+* React
+* TypeScript
+* PHP
+* MySQL
+
+---
+
+#  Sobre o Portfólio
+
+Este portfólio foi desenvolvido para apresentar alguns dos projetos que construí durante minha trajetória como desenvolvedor.
+
+Os trabalhos incluem **projetos pessoais** e **projetos Freelancer**, desenvolvidos utilizando diferentes tecnologias conforme a necessidade de cada solução.
+
+As stacks utilizadas variam entre:
+
+* Java
+* PHP
+* Node.js
+* React
+* TypeScript
+* HTML5
+* CSS3
+
+Sempre priorizando:
+
+* Performance
+* Escalabilidade
+* Organização do código
+* Boas práticas
+* Responsividade
+* Experiência do usuário
+
+---
+
+# 📊 GitHub Stats
+
+<p align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=SEU_USUARIO&show_icons=true&theme=tokyonight&hide_border=true"/>
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USUARIO&layout=compact&theme=tokyonight&hide_border=true"/>
+
+</p>
+
+---
+
+#  Acesse
+
+ **Portfolio:** https://iampaulohenrique.com.br
+
+💼 Desenvolvido por **Paulo Henrique**
