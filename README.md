@@ -1,6 +1,6 @@
 # iampaulohenrique.com.br — Portfolio 2026
 
-> **Meu portfólio profissional**, desenvolvido para apresentar meus serviços, experiências e projetos através de uma interface moderna inspirada em **Cyberpunk** e **Glassmorphism**.
+> **Meu portfólio profissional**, desenvolvido para apresentar meus serviços, experiências e projetos através de uma interface moderna.
 
 ---
 
